@@ -3451,7 +3451,7 @@ input, select, textarea {
 
 		.wrapper.style1-alt {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(29, 29, 57, 0.707), rgba(28, 28, 37, 0.197)), url("../../images/pietro-jeng-n6B49lTx7NM-unsplash.jpg");
+			background-image: linear-gradient(to top, rgba(29, 29, 57, 0.707), rgba(28, 28, 37, 0.197)), url("/images/pietro-jeng-n6B49lTx7NM-unsplash.jpg");
 			background-size: 100% 100%;
 			background-repeat: no-repeat,
 		}
