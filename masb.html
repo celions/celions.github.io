@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Programming a Potentiostat - Celia Sanchez</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Celia Sánchez</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Projects</a></li>
+					</ul>
+				</nav>
+			</header>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major">Programming a Potentiostat</h1>
+
+                <!-- Text -->
+
+                                <ul class="icons left"></ul>
+                                <h3>Source code   <a href="https://github.com/celions/masb-project" class="icon brands fa-github"><span class="label">GitHub</span></a></h3>
+                                </ul>
+
+                    <section>
+             
+                        <p><span class="image left"><img src="images/system-on-chip-software-1.jpg" alt="" /></span> The <b>biopotenciostats</b> are one of the most important parts that make up a biosensor. 
+                            Using a <b>microcontroller</b>, a biopotentiostat has been connected to a computer that acts as a user interface so that it can make changes to the system and at the same time view the results.
+                            <br>
+                            With advances in miniaturization it is possible to design complex <b>SoC</b> (Systems-on-Chip) in confined spaces, and obtain portable devices with a great impact on health care.
+                        </p>
+
+                        <hr />
+                        <h2>The Project</h2>
+                        <p>
+                            This project has been carried out by Lucía Chacón and myself, under the supervision of Dr Albert Álvarez. 
+                            <br>
+                            <br>
+                            The goals of the project were controlling the power management unit (PMU) of the potentiostat front-end module, sending and receiving data from the potentiostat, using timer signals to control tempos plus other resources, 
+                            and finally, to communicate with the viSens-S application installed with the host or computer using a predefined protocol.
+                            <br>
+                            <br>
+                            In order to understand the project, the components of the e-Reader circuit (PMU, Front-End, Microcontroller and display unit) of the potentiostat have been drawn in the following schematic. In this diagram, neither the power supply nor the sensor is detailed, in our case the sensor was a three electrodes. 
+                            The PMU extracts power from the source and converts it into the control and voltage supply signals. At the same time the Front-end gets the measurements. The output voltage of the Front-end is processed by the microcontroller and is sent to the LabView viSens-S interface, on our computers.
+                        </p>
+						<br> 
+						<span class="image"><img src="images/front_end.png" alt="" /></span>
+                        
+
+            </div>
+
+</div>
+		
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy;  Copyright 2021 Celia Sánchez - All Rights Reserved</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
