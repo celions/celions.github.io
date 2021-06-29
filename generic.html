@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Projects - Celia Sanchez</title>
@@ -11,6 +6,47 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.container {
+			  position: relative;
+			  width: 100%;
+			}
+			
+			.image {
+			  display: block;
+			  width: auto;
+			  height: 575px;
+			}
+			
+			.overlay {
+			  position: absolute;
+			  top: 0;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  width: 625px;
+			  height: 575px;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #3c2c62;
+			}
+			
+			.container:hover .overlay {
+			  opacity: 1;
+			}
+			
+			.text {
+			  color: white;
+			  font-size: 40px;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  -webkit-transform: translate(-50%, -50%);
+			  -ms-transform: translate(-50%, -50%);
+			  transform: translate(-50%, -50%);
+			  text-align: center;
+			}
+			</style>
 	</head>
 	<body class="is-preload">
 
@@ -42,19 +78,15 @@
 				<section class="posts">
 					<article>
 						<header>
-							<h2>Programming a Potentiostat</h2>
-						</header>
-						<a href="masb.html" class="image fit"><img src="images/micro.jpg" alt="" /></a>
-						<p><b>Microcontrollers </b>project to perform two electroquemical measurements with a portable potentiostat: a <b>chronoamperometry</b> and a <b>cyclic voltammetry</b>.</p>
-						<ul class="actions special">
-							<li><a href="masb.html" class="button">Read More</a></li>
-						</ul>
-					</article>
-					<article>
-						<header>
 							<h2>SensUs 2021</h2>
 						</header>
-						<a href="sensus.html" class="image fit"><img src="images/pp.jpg" alt="" /></a>
+						<div class="container">
+							<img src="images/pp.jpg" alt="" class="image">
+							<div class="overlay">
+							  <div href="masb.html" class="text">29/06/2021</div>
+							</div>
+						</div>
+						<br>					
 						<p>Currently working on the development of a <b>biosensor</b> for the hemagglutinin (H1) which is the main protein antigen that can be found in the surface of <b>H1N1 virus</b> (that causes influenza A).</p>
 						<ul class="actions special">
 							<li><a href="sensus.html" class="button">Read More</a></li>
@@ -62,9 +94,31 @@
 					</article>
 					<article>
 						<header>
+							<h2>Programming a Potentiostat</h2>
+						</header>
+						<div class="container">
+							<img src="images/micro.jpg" alt="" class="image">
+							<div class="overlay">
+							  <div class="text">18/06/2021</div>
+							</div>
+						</div>
+						<br>
+						<p><b>Microcontrollers </b>project to perform two electroquemical measurements with a portable potentiostat: a <b>chronoamperometry</b> and a <b>cyclic voltammetry</b>.</p>
+						<ul class="actions special">
+							<li><a href="masb.html" class="button">Read More</a></li>
+						</ul>
+					</article>
+					<article>
+						<header>
 							<h2>InterMineR Cytoscape</h2>
 						</header>
-						<a href="intermine.html" class="image fit"><img src="images/intermine.jpg" alt="" /></a>
+						<div class="container">
+							<img src="images/intermine.jpg" alt="" class="image">
+							<div class="overlay">
+							  <div class="text">14/06/2021</div>
+							</div>
+						</div>
+						<br>
 						<p>Summer internship in the <b>Department of Genetics</b> of the <b>University of Cambridge</b> developing <b>visualization tools</b> for <b>InterMine</b> project, which has driven to the final degree project</p>
 						<ul class="actions special">
 							<li><a href="intermine.html" class="button">Read More</a></li>
@@ -74,7 +128,13 @@
 						<header>
 							<h2>SISCOM analysis program</h2>
 						</header>
-						<a href="siscom.html" class="image fit"><img src="images/focusdet.jpg" alt="" /></a>
+						<div class="container">
+							<img src="images/focusdet.jpg" alt="" class="image">
+							<div class="overlay">
+							  <div class="text">08/01/2021</div>
+							</div>
+						</div>
+						<br>
 						<p>Project for the subject of Medical Engineering Applications that aims to use the <b>SISCOM</b> analysis for <b>multimodality imaging</b> in <b>epilepsy</b>. </p>
 						<ul class="actions special">
 							<li><a href="siscom.html" class="button">Read More</a></li>
@@ -84,7 +144,13 @@
 						<header>
 							<h2>Covid-19 Prediction Model</h2>
 						</header>
-						<a href="covid.html" class="image fit"><img src="images/covid19.jpg" alt="" /></a>
+						<div class="container">
+							<img src="images/covid19.jpg" alt="" class="image">
+							<div class="overlay">
+							  <div class="text">29/05/2020</div>
+							</div>
+						</div>
+						<br>
 						<p>Project for Modelling Biological Systems, 3rd year subject, that aims to <b>model</b> and <b>simulate</b> the <b>time evolution</b> of the <b>Covid-19</b> in Spain.</p>
 						<ul class="actions special">
 							<li><a href="covid.html" class="button">Read More</a></li>
@@ -94,7 +160,13 @@
 						<header>
 							<h2>AlpsNMR Interface</h2>
 						</header>
-						<a href="alpsnmr.html" class="image fitless"><img src="images/AlpsNMRlogo.jpg" alt="" /></a>
+						<div class="container">
+							<img src="images/AlpsNMRlogo.jpg" alt="" class="image">
+							<div class="overlay">
+							  <div class="text">30/10/2019</div>
+							</div>
+						</div>
+						<br>
 						<p>Development of a graphical user interface for <b>computational metabolomics</b> workflows during an internship in the Intitute for Bioengineering of Catalonia <b>IBEC</b>.</p>
 						<ul class="actions special">
 							<li><a href="alpsnmr.html" class="button">Read More</a></li>
@@ -104,7 +176,13 @@
 						<header>
 							<h2>Rarehacks 2019</h2>
 						</header>
-						<a href="rarehacks.html" class="image fit"><img src="images/posterrarehacks.jpg" alt="" /></a>
+						<div class="container">
+							<img src="images/posterrarehacks.jpg" alt="" class="image">
+							<div class="overlay">
+							  <div class="text">07/07/2019</div>
+							</div>
+						</div>
+						<br>
 						<p><b>1st Place</b> in the Hackathon for the Share4Rare project: RareHacks. Three days to apply data science tools to real biomedicine case contributing to help families suffering from rare diseases.</p>
 						<ul class="actions special">
 							<li><a href="rarehacks.html" class="button">Read More</a></li>
