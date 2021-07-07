@@ -32,29 +32,30 @@
 
                                 <ul class="icons left"></ul>
                                 <h3>Source code   <a href="https://github.com/celions/masb-project" class="icon brands fa-github"><span class="label">GitHub</span></a></h3>
+								<br>
                                 </ul>
 
                     <section>
              
                         <p><span class="image left"><img src="images/system-on-chip-software-1.jpg" alt="" /></span> The <b>biopotenciostats</b> are one of the most important parts that make up a biosensor. 
-                            Using a <b>microcontroller</b>, a biopotentiostat has been connected to a computer that acts as a user interface so that it can make changes to the system and at the same time view the results.
-							The microcontroller has been programmed to perform two types of measurements with the potentiostat: chronoamperometries and cyclic voltammetries. 
-                            <br>
+                            In this project, Lucía Chacón and I have used a <b>microcontroller</b> to connect a biopotentiostat to a computer. The microcontroller has been programmed to perform two types of measurements with the potentiostat: chronoamperometries and cyclic voltammetries. 
+                            The computer acts as a user interface so that it can make changes to the system and at the same time view the results of the two measurements.
+							<br> 
                             This project is in line with the new trends in miniaturization. Thanks to the new advances it is possible to design complex <b>SoC</b> (Systems-on-Chip) in confined spaces, and obtain portable devices with a great impact on health care.
                         </p>
 
                         <hr />
                         <h2>The Project</h2>
                         <p>
-                            This project has been carried out by Lucía Chacón and myself, under the supervision of Dr Albert Álvarez. 
+                            This project has been carried out by Lucía Chacón Carracedo and myself, under the supervision of Dr Albert Álvarez Carulla. It is the final project of the subject <b>Microcontrollers for Biomedical Applications and Systems</b>. 
                             <br>
                             <br>
-                            The goals of the project were controlling the power management unit (PMU) of the potentiostat front-end module, sending and receiving data from the potentiostat, using timer signals to control tempos plus other resources, 
-                            and finally, to communicate with the viSens-S application installed with the host or computer using a predefined protocol. The final product has been tested in the laboratory with a potassium ferricyanide sample. 
+                            The goals of the project were controlling the power management unit (PMU) of the potentiostat front-end module, sending and receiving data from the potentiostat, using timer signals to control tempos plus other microcontroller peripherals, 
+                            and finally, to communicate with the viSens-S application installed with the host or computer using a predefined protocol called MASB-COMM-S. Both, the LabView application and the protocol, have been conceived by Dr. Álvarez. The final product has been tested in the laboratory with a potassium ferricyanide sample. 
                             <br>
                             <br>
                             In order to understand the project, the components of the e-Reader circuit (PMU, Front-End, Microcontroller and display unit) of the potentiostat have been drawn in the following schematic. In this diagram, neither the power supply nor the sensor is detailed, in our case the sensor was a three electrodes. 
-                            The PMU extracts power from the source and converts it into the control and voltage supply signals. At the same time the Front-end gets the measurements. The output voltage of the Front-end is processed by the microcontroller and is sent to the LabView viSens-S interface, on our computers.
+                            The PMU extracts power from the source and converts it into the control and voltage supply signals. At the same time the Front-end gets the measurements. The output voltage of the Front-end is processed by the microcontroller and is sent to the LabView viSens-S interface, in our computers.
                             <br>
                             <br>
                             (The code and report will be published soon.)
